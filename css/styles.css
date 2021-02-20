@@ -1,0 +1,24 @@
+@font-face{
+    font-family: bigFont;
+    src:url('../fonts/Oxygen-Bold.ttf');
+    font-style: normal;
+    font-weight: 700;
+}
+
+@font-face{
+    font-family: regularFont;
+    src:url('../fonts/Oxygen-Regular.ttf');
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face{
+    font-family: lightFont;
+    src:url('../fonts/Oxygen-Light.ttf');
+    font-style: normal;
+    font-weight: 200;
+}
+
+h1{
+    font-family: bigFont;
+}
