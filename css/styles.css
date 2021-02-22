@@ -146,16 +146,44 @@ p{
 }
 
 .hero__info a{
-    display: inline-block;
     font-weight: bold;
     font-size: 1.6rem;
     color: var(--black);
     font-family: regularFont;
     margin: 1.6rem 0;
     position: relative;
+   
 }
 
-.hero__info__number{
-  display: inline;  
-  margin-right: 1.6rem;
+.hero__info__icon{
+    vertical-align: middle;
+    margin-right: 1.6rem;
+}
+
+/* ABOUT */
+
+.about{
+    padding: 0 1.6rem;
+    margin: 1.5rem 0;
+}
+
+.about__content{
+    text-align: center;
+}
+
+.about__content > p{
+    font-size: 2.4rem;
+    line-height: 3.8rem;
+}
+
+.about__content p:first-of-type + p{
+    font-weight: 700;
+   
+}
+
+.about__content img{
+    display: inline-block;
+    text-align: center;
+    height: 80px;
+    width:80px;
 }
