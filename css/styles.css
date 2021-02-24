@@ -122,6 +122,9 @@ p{
     text-decoration: none;
     letter-spacing: 1.25px;
 }
+.menu{
+    display: none;
+}
 
 .hero{
     padding: 0 1.6rem;
@@ -391,6 +394,33 @@ text-align: left;
 
 
 @media screen and (min-width:766px){
+  html{
+      scroll-behavior: smooth;
+  }
+
+  
+    .menu{
+        display: block;
+    }
+    .list{
+        display: flex;
+        justify-content: space-around;
+    }
+    .list__item{
+        list-style: none;
+    }
+    .list__link{
+        font-family: regularFont;
+        text-decoration: none;
+        font-size: 1.4rem;
+        letter-spacing: 1.25px;
+        display: block;
+        margin-right: 40px;
+        opacity: 0.5;
+        color: var(--black);
+    }
+
+
     .hero__content{
         justify-content: space-around;
         flex-direction: row;
@@ -435,7 +465,7 @@ text-align: left;
         justify-content: start;
     }
 
-    .button-github, 
+.button-github, 
 .button-proyect{
     margin-right: 1.6rem;
     padding:0 2.4rem ;
